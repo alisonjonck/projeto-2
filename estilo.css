@@ -1,3 +1,26 @@
+body {
+    background: white;
+}
+
+div {
+    /* Estes abaixo são exemplos de propriedades do CSS FLEX */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+}
+
+img {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
 h1 {
     color: green;
     margin-left: 100px;
@@ -17,10 +40,14 @@ button {
 }
 
 input {
-    background: black;
-    color: white;
+    background: white;
+    color: #333;
     padding: 20px;
     margin: 20px;
-    border: 10px solid red;
+    border: 1px solid #188fff;
+    border-radius: 4px;
     font-size: 20px;
+    width: 720px;
+    height: 44px;
+    margin-top: 20px;
 }
