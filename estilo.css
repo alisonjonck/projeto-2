@@ -12,7 +12,7 @@ div {
 .links {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     width: 50%;
 }
 
@@ -21,12 +21,22 @@ img {
     margin-top: 20px;
 }
 
-h1 {
+@media(max-width: 1300px) {
+    .links {
+        width: 100%;
+    }
+
+    img {
+        margin-left: 30px;
+        background: red;
+    }
+}
+
+/* h1 {
     color: green;
     margin-left: 100px;
     margin-top: 200px;
     margin-bottom: 50px;
-    /* margin-right: 500px; */
 }
 
 button {
@@ -37,6 +47,12 @@ button {
     margin: 20px;
     border: 1px solid red;
     font-size: 20px;
+}*/
+
+a:hover {
+    color: coral;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 input {
@@ -51,3 +67,5 @@ input {
     height: 44px;
     margin-top: 20px;
 }
+
+
